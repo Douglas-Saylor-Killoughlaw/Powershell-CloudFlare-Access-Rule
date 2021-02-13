@@ -1,5 +1,5 @@
 # Powershell CloudFlare Access Rule
-This is a powershell script to simply create/delete an Access Rule for Cloudflare API v4 (so to BAN or UNBAN an IP).
+This is a powershell script to simply create/delete an Access Rule for Cloudflare API v4 (so to BAN(BLOCK) or UNBAN(UNBLOCK) an IP).
 
 # Introduction
 The script is based on original bash script that can be located [here](https://gist.github.com/pjv/926ece8549cd45bac4821945f6ad253c).
@@ -25,11 +25,11 @@ Parameter to set inside needed only for script `Script_CloudFlare_API_Zone_Acces
 
 # Parameter to pass on execution
 To ban an IP:  
-`c:>.\Script_CloudFlare_API_Global_Access_Rule BAN IPADDRESS`   
+`c:>.\Script_CloudFlare_API_Global_Access_Rule BLOCK IPADDRESS`   
 Before to call a ban it check if already exist an Access Rule with that IP, if not it ban the passed IP (aka create anAccess Rule)
 
 To unban an IP:  
-`c:>.\Script_CloudFlare_API_Global_Access_Rule UNBAN IPADDRESS`  
+`c:>.\Script_CloudFlare_API_Global_Access_Rule UNBLOCK IPADDRESS`  
 Before to call an unban it check if exist an Access Rule with that IP, if yes it unban passed IP (aka delete an Access Rule)
 
 # Some Tips
