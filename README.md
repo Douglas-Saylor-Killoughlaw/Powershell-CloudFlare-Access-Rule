@@ -32,8 +32,19 @@ To unban an IP:
 `c:>.\Script_CloudFlare_API_Global_Access_Rule UNBAN IPADDRESS`  
 Before to call an unban it check if exist an Access Rule with that IP, if yes it unban passed IP (aka delete an Access Rule)
 
+# Some Tips
+- 
+
+- Obviusly before to start you need to set the execution policies to Unrestricted.  
+To do that you must start as Administrator Powershell and execute `Set-ExecutionPolicy Unrestricted` and digit `Y`  
+To set it to windows defaul you must execut `Set-ExecutionPolicy Restricted` and digit `Y`  
+[Set-ExecutionPolicy Command](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.1)
+
 # Helpfull link and credit
-[Cloudflare API v4 guide](https://api.cloudflare.com/#user-level-firewall-access-rule-properties)  
+[Cloudflare API v4 guide](https://api.cloudflare.com/#user-level-firewall-access-rule-properties) 
+[Power Shell Get Date Time on Same line](https://stackoverflow.com/questions/20246889/get-date-and-time-on-the-same-line)
+[Cloudflare Power shell invoke webrequest info exemple](https://community.cloudflare.com/t/invoke-webrequest-cloudflare-api-error-400/1842/2)
+Thanks to:  
 [GithubGist pjv/cf_ban scripts](https://gist.github.com/pjv/926ece8549cd45bac4821945f6ad253c)  
 [Github poshsecurity/PowerShell-CloudFlare-Tor-Whitelist repository](https://github.com/poshsecurity/PowerShell-CloudFlare-Tor-Whitelist)  
 [Github zloeber/PSCloudflare repository](https://github.com/zloeber/PSCloudflare)  
