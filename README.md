@@ -6,6 +6,7 @@ The script is based on original bash script that can be located [here](https://g
 I converted it for powershell and putted everything in one script for ban and unban.
 
 For different kind of Cloudflare API perimission and target I create two script:
+
 `Script_CloudFlare_API_Global_Access_Rule.ps1`
 it creates/delete rules for a given IP address accross all of your domains in CloudFlare
 You need a Cloudflare Global API key
