@@ -33,7 +33,11 @@ To unban an IP:
 Before to call an unban it check if exist an Access Rule with that IP, if yes it unban passed IP (aka delete an Access Rule)
 
 # Some Tips
-- 
+- Way to run the script  
+.\Script_CloudFlare_API_Zone_Access_Rule.ps1 BLOCK 192.168.10.26  
+PathToScript\Script_CloudFlare_API_Zone_Access_Rule.ps1 BLOCK 192.168.10.26  
+or  
+C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe -file PathToScript\Script_CloudFlare_API_Zone_Access_Rule.ps1 BLOCK 192.168.10.26
 
 - Obviusly before to start you need to set the execution policies to Unrestricted.  
 To do that you must start as Administrator Powershell and execute `Set-ExecutionPolicy Unrestricted` and digit `Y`  
