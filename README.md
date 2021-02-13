@@ -9,11 +9,13 @@ For different kind of Cloudflare API perimission and target I create two script:
 
 `Script_CloudFlare_API_Global_Access_Rule.ps1`
 it creates/delete rules for a given IP address accross all of your domains in CloudFlare
-(You need a Cloudflare Global API key)
+
+-You need a Cloudflare Global API key-
 
 `Script_CloudFlare_API_Zone_Access_Rule.ps1` 
 it creates/delete rules for a given IP address only for the domain contoso.com
-(You need a Cloudflare a Zone ID of your domain and a Zone API key (Mininum Edit Permissions needed: Zone.Firewall Services))
+
+-You need a Cloudflare a Zone ID of your domain and a Zone API key (Mininum Edit Permissions needed: Zone.Firewall Services
 
 # Parameter to set inside
 Parameter to set inside both the script:
