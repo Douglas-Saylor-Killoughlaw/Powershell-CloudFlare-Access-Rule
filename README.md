@@ -24,13 +24,11 @@ Parameter to set inside needed only for script `Script_CloudFlare_API_Zone_Acces
 `$ZONEID` is Zone ID, that you can find in the Cloudflare Dashboard of the domain
 
 # Parameter to pass on execution
-To ban an IP
-
-`c:>.\Script_CloudFlare_API_Global_Access_Rule BAN IPADDRESS`  
+To ban an IP:  
+`c:>.\Script_CloudFlare_API_Global_Access_Rule BAN IPADDRESS`   
 Before to call a ban it check if already exist an Access Rule with that IP, if not it ban the passed IP (aka create anAccess Rule)
 
-To unban an IP
-
+To unban an IP:  
 `c:>.\Script_CloudFlare_API_Global_Access_Rule UNBAN IPADDRESS`  
 Before to call an unban it check if exist an Access Rule with that IP, if yes it unban passed IP (aka delete an Access Rule)
 
