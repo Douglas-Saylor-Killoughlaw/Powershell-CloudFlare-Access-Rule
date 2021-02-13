@@ -33,6 +33,6 @@ To unban an IP:
 Before to call an unban it check if exist an Access Rule with that IP, if yes it unban passed IP (aka delete an Access Rule)
 
 # Helpfull link and credit
-[Cloudflare API v4 guide] (https://api.cloudflare.com/#user-level-firewall-access-rule-properties)  
-[Github poshsecurity/PowerShell-CloudFlare-Tor-Whitelist repository] (https://github.com/poshsecurity/PowerShell-CloudFlare-Tor-Whitelist)  
-[Github zloeber/PSCloudflare repository] (https://github.com/zloeber/PSCloudflare)  
+[Cloudflare API v4 guide](https://api.cloudflare.com/#user-level-firewall-access-rule-properties)  
+[Github poshsecurity/PowerShell-CloudFlare-Tor-Whitelist repository](https://github.com/poshsecurity/PowerShell-CloudFlare-Tor-Whitelist)  
+[Github zloeber/PSCloudflare repository](https://github.com/zloeber/PSCloudflare)  
