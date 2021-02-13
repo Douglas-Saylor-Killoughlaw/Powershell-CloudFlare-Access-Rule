@@ -34,5 +34,6 @@ Before to call an unban it check if exist an Access Rule with that IP, if yes it
 
 # Helpfull link and credit
 [Cloudflare API v4 guide](https://api.cloudflare.com/#user-level-firewall-access-rule-properties)  
+[GithubGist pjv/cf_ban scripts](https://gist.github.com/pjv/926ece8549cd45bac4821945f6ad253c)  
 [Github poshsecurity/PowerShell-CloudFlare-Tor-Whitelist repository](https://github.com/poshsecurity/PowerShell-CloudFlare-Tor-Whitelist)  
 [Github zloeber/PSCloudflare repository](https://github.com/zloeber/PSCloudflare)  
