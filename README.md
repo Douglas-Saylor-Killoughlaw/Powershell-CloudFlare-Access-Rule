@@ -48,8 +48,10 @@ To set it to windows defaul you must execut `Set-ExecutionPolicy Restricted` and
 [Cloudflare API v4 guide](https://api.cloudflare.com/#user-level-firewall-access-rule-properties)  
 [Cloudflare Creating API tokens](https://developers.cloudflare.com/api/tokens/create)  
 [CloudFlare Help: What API token permissions level to edit “IP Access Rules”](https://community.cloudflare.com/t/what-api-token-permissions-level-to-edit-ip-access-rules/238178/6)  
+
 [Power Shell Get Date Time on Same line](https://stackoverflow.com/questions/20246889/get-date-and-time-on-the-same-line)  
 [Cloudflare Powershell invoke webrequest info exemple](https://community.cloudflare.com/t/invoke-webrequest-cloudflare-api-error-400/1842/2)  
+
 Thanks to:  
 [GithubGist pjv/cf_ban scripts](https://gist.github.com/pjv/926ece8549cd45bac4821945f6ad253c)  
 [Github poshsecurity/PowerShell-CloudFlare-Tor-Whitelist repository](https://github.com/poshsecurity/PowerShell-CloudFlare-Tor-Whitelist)  
